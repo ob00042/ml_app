@@ -22,6 +22,16 @@
             <h2>Analyse the data</h2>
             <button id="analyse" class="btn btn-danger">Analyse</button>
         </div>
+        <h2 id="csv-analysed" style="display: none;">CSV Analysed</h2>
+        <div class="after-area" style="display: none;">
+            <h2>Test accuracy: <span id="test-accuracy"></span>%</h2>
+            <form id="upload-more-test" role="form" onsubmit="return false">
+                <input type="file" id="upload-test" name="test" placeholder="Upload csv for test">
+                <button type="submit" class="btn btn-primary" id="test-btn">Test</button>
+            </form>
+        </div>
+        <div class="test-results-area" style="display: none;">
+        </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
