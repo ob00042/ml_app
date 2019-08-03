@@ -6,7 +6,9 @@
       <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/static/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/uploads/bank-full.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/bank-less.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/bank-test-nolab.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/bank-test.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,54 +20,55 @@
     <session id="-1236452736">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
           <entry key="js" value="1" />
           <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
           <entry key="JavaScript" value="1" />
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="57" />
-          <entry key="html" value="1131" />
-          <entry key="js" value="1637" />
-          <entry key="py" value="2173" />
+          <entry key="Python Console" value="89" />
+          <entry key="html" value="2261" />
+          <entry key="js" value="3009" />
+          <entry key="py" value="4757" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1131" />
-          <entry key="JavaScript" value="1637" />
-          <entry key="Python" value="2230" />
+          <entry key="HTML" value="2263" />
+          <entry key="JavaScript" value="3007" />
+          <entry key="Python" value="4846" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+            <state relative-caret-position="554">
+              <caret line="156" column="100" selection-start-line="156" selection-start-column="100" selection-end-line="156" selection-end-column="100" />
               <folding>
                 <element signature="e#0#75#0" expanded="true" />
-                <element signature="e#1866#1905#0" />
-                <marker date="1564700471731" expanded="true" signature="2429:3932" ph="..." />
+                <marker date="1564834862832" expanded="true" signature="3305:3547" ph="..." />
+                <marker date="1564834862832" expanded="true" signature="7861:8045" ph="..." />
               </folding>
             </state>
           </provider>
@@ -74,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+            <state relative-caret-position="596">
+              <caret line="39" column="79" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="79" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -87,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/static/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="85" column="44" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
+            <state relative-caret-position="509">
+              <caret line="135" column="43" selection-start-line="135" selection-start-column="43" selection-end-line="135" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -114,8 +117,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/templates/index.html" />
-        <option value="$PROJECT_DIR$/app/static/main.js" />
         <option value="$PROJECT_DIR$/app/app.py" />
+        <option value="$PROJECT_DIR$/app/static/main.js" />
       </list>
     </option>
   </component>
@@ -137,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,7 +157,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,7 +195,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.094078586" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18040952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -206,8 +209,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.14810811" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.60324323" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.05081081" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.2345946" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -231,8 +234,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+        <state relative-caret-position="596">
+          <caret line="39" column="79" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="79" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -243,22 +246,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/main.js">
+    <entry file="file://$PROJECT_DIR$/app/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="85" column="44" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
+        <state relative-caret-position="554">
+          <caret line="156" column="100" selection-start-line="156" selection-start-column="100" selection-end-line="156" selection-end-column="100" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1564834862832" expanded="true" signature="3305:3547" ph="..." />
+            <marker date="1564834862832" expanded="true" signature="7861:8045" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.py">
+    <entry file="file://$PROJECT_DIR$/app/static/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#75#0" expanded="true" />
-            <element signature="e#1866#1905#0" />
-            <marker date="1564700471731" expanded="true" signature="2429:3932" ph="..." />
-          </folding>
+        <state relative-caret-position="509">
+          <caret line="135" column="43" selection-start-line="135" selection-start-column="43" selection-end-line="135" selection-end-column="43" />
         </state>
       </provider>
     </entry>

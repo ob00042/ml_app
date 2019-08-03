@@ -20,6 +20,12 @@
         <h2 id="csv-uploaded" style="display: none;">CSV Uploaded</h2>
         <div class="analyse-area" style="display: none;">
             <h2>Analyse the data</h2>
+            <form role="form">
+                <input type="radio" name="model-choice" class="model-choice" id="rf" value="rf" checked>
+                <label for="rf">Random Forests</label>
+                <input type="radio" name="model-choice" class="model-choice" id="svm" value="svm">
+                <label for="svm">SVM</label>
+            </form>
             <button id="analyse" class="btn btn-danger">Analyse</button>
         </div>
         <h2 id="csv-analysed" style="display: none;">CSV Analysed</h2>
@@ -28,6 +34,10 @@
             <form id="upload-more-test" role="form" onsubmit="return false">
                 <input type="file" id="upload-test" name="test" placeholder="Upload csv for test">
                 <button type="submit" class="btn btn-primary" id="test-btn">Test</button>
+            </form>
+            <h2>Or enter data directly</h2>
+            <form id="enter-data-form" role="form" onsubmit="return false">
+                <button type="submit" class="btn btn-primary" id="test-directly">Test directly</button>
             </form>
         </div>
         <div class="test-results-area" style="display: none;">
